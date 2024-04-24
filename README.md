@@ -1,2 +1,2 @@
 # Basketball Scoreboard
-My implementation of the Scrimba Basketball Scoreboard App.
+This is my implementation of the Scrimba Frontend Path Basketball Scoreboard App.

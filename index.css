@@ -1,8 +1,32 @@
 body {
     margin: 0;
+    padding: 20px;
 }
 
-.container {
-    display: flex;
-    justify-content: space-around;
+.text-center {
+  text-align: center;
+}
+
+.btn {
+  background-color: #282828;
+  color: #FFFFFF;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 20px 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+main {
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.board, .score {
+  display: flex;
+  justify-content: space-around;
 }
