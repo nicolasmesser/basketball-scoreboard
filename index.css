@@ -13,8 +13,6 @@ body {
   font-weight: 500;
   padding: 10px 15px;
   border-radius: 5px;
-  display: inline-block;
-  margin: 20px 10px;
 }
 
 .btn:hover {
@@ -29,4 +27,10 @@ main {
 .board, .score {
   display: flex;
   justify-content: space-around;
+}
+
+.section-points {
+  display: flex;
+  gap: 20px;
+  padding-bottom: 20px;
 }
