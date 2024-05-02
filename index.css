@@ -3,6 +3,17 @@ body {
     padding: 20px;
 }
 
+main {
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  margin: 20px 0;
+}
+
 .text-center {
   text-align: center;
 }
@@ -19,23 +30,26 @@ body {
   cursor: pointer;
 }
 
-main {
-    border: 2px solid #000000;
-    border-radius: 10px;
-}
-
-.board, .score {
+.board {
   display: flex;
-  justify-content: space-around;
+  gap: 40px;
+  justify-content: center;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  padding: 20px;
 }
 
-#score-home, #score-guest {
+p#score-home, p#score-guest {
   font-size: 2rem;
+  color: #FFFFFF;
+  background-color: #282828;
+  border-radius: 5px;
+  padding: 20px 20px;
+  margin: 20px 0;
 }
 
 .section-points {
   display: flex;
   justify-content: center;
   gap: 20px;
-  padding-bottom: 20px;
 }
