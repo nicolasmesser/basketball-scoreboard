@@ -29,8 +29,13 @@ main {
   justify-content: space-around;
 }
 
+#score-home, #score-guest {
+  font-size: 2rem;
+}
+
 .section-points {
   display: flex;
+  justify-content: center;
   gap: 20px;
   padding-bottom: 20px;
 }
