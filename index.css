@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 20px;
+    background-image: url("./img/basketball-court.jpg");
+    background-size: cover;
 }
 
 main {
@@ -12,6 +14,15 @@ h3 {
   text-transform: uppercase;
   font-size: 2rem;
   margin: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  font-weight: 700;
 }
 
 .text-center {
@@ -34,9 +45,11 @@ h3 {
   display: flex;
   gap: 40px;
   justify-content: center;
-  border: 2px solid #000000;
+  border: 3px solid #000000;
   border-radius: 10px;
   padding: 20px;
+  box-shadow: 5px 5px 5px #282828;
+  background-color: #FFFFFF;
 }
 
 p#score-home, p#score-guest {
